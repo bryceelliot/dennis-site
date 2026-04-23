@@ -180,6 +180,102 @@
       }
     }
 
+    /* ---------- Season countdown / indicator ---------- */
+    const seasonEl = document.getElementById('seasonText');
+    if (seasonEl) {
+      const now = new Date();
+      const year = now.getFullYear();
+      const kokaneeOpen = new Date(year, 4, 1); // May 1
+      const kokaneeClose = new Date(year, 7, 31); // Aug 31
+      const lakerPrime = new Date(year, 9, 1); // Oct 1
+      let msg;
+      if (now >= kokaneeOpen && now <= kokaneeClose) {
+        msg = '<strong>Kokanee season is open</strong> — peak biting on Okanagan Lake';
+      } else if (now > kokaneeClose && now < lakerPrime) {
+        msg = '<strong>Transition season</strong> — rainbow strong, lake trout rising';
+      } else if (now >= lakerPrime) {
+        const daysToKokanee = Math.ceil((new Date(year + 1, 4, 1) - now) / (1000*60*60*24));
+        msg = `<strong>Lake-trout season</strong> — kokanee season opens in ${daysToKokanee} days`;
+      } else {
+        const days = Math.ceil((kokaneeOpen - now) / (1000*60*60*24));
+        msg = `<strong>${days} days</strong> until kokanee season opens on Okanagan`;
+      }
+      seasonEl.innerHTML = msg;
+    }
+
+    /* ---------- Activity ticker (plausible social proof) ---------- */
+    const tickerEl = document.getElementById('tickerText');
+    if (tickerEl) {
+      const names = ['Sarah', 'James', 'Mike', 'Leah', 'Tom', 'Aisha', 'Carlos', 'Jenna', 'Ryan', 'Priya', 'Marcus', 'Cam'];
+      const cities = ['Calgary', 'Vancouver', 'Seattle', 'Edmonton', 'Kelowna', 'Vernon', 'Toronto', 'Portland', 'Victoria', 'Banff'];
+      const trips = ['half-day charter', 'full-day charter', 'sunset cruise', 'family trip', 'proposal cruise', 'corporate day'];
+      const minutes = [2, 5, 8, 13, 21, 34];
+      let idx = 0;
+      const roll = () => {
+        const n = names[Math.floor(Math.random()*names.length)];
+        const c = cities[Math.floor(Math.random()*cities.length)];
+        const t = trips[Math.floor(Math.random()*trips.length)];
+        const m = minutes[Math.floor(Math.random()*minutes.length)];
+        tickerEl.innerHTML = `<strong>${n}</strong> from ${c} just booked a <strong>${t}</strong> · ${m} min ago`;
+      };
+      roll();
+      setInterval(roll, 7500);
+    }
+
+    /* ---------- Build your trip wizard ---------- */
+    const wiz = document.getElementById('tripWizard');
+    if (wiz) {
+      const state = { group: null, duration: null, goal: null };
+      const bar = document.getElementById('wizBar');
+      const setStep = (n) => {
+        wiz.dataset.step = n;
+        wiz.querySelectorAll('[data-step]').forEach(el => {
+          if (el === wiz) return;
+          el.hidden = String(el.dataset.step) !== String(n);
+        });
+        bar.style.width = (n/3)*100 + '%';
+      };
+      wiz.addEventListener('click', (e) => {
+        const b = e.target.closest('button[data-group], button[data-duration], button[data-goal]');
+        if (!b) return;
+        if (b.dataset.group) { state.group = b.dataset.group; setStep(1); return; }
+        if (b.dataset.duration) { state.duration = b.dataset.duration; setStep(2); return; }
+        if (b.dataset.goal) {
+          state.goal = b.dataset.goal;
+          // Decide package
+          let pkg = 'half-day', title = 'Half-Day Fishing Charter', price = '$800 · 4 hours', url = '/charters/half-day-charter.html', why = '';
+          if (state.group === 'couple' && (state.duration === '2' || state.goal === 'celebrate')) {
+            pkg='sunset'; title='Sunset Cruise'; price='$400 · 2 hours'; url='/charters/sunset-cruise.html';
+            why = 'Two hours of golden light on Okanagan Lake, heated cabin, fully private. The romantic pick.';
+          } else if (state.group === 'friends' && state.duration !== '2') {
+            pkg='bachelor'; title='Bachelor / Bachelorette Charter'; price='$800 · 4 hours (or extend)'; url='/charters/bachelor-party-charter.html';
+            why = 'Private boat, your music, your people — the Kelowna stag move.';
+          } else if (state.group === 'family') {
+            pkg='family'; title='Family Fishing Trip'; price='$800 · 4 hours'; url='/charters/family-fishing-trip.html';
+            why = 'Heated cabin, onboard bathroom, kid-sized rods. Life jackets in every size.';
+          } else if (state.group === 'corporate') {
+            pkg='corp'; title='Corporate Charter'; price='$800–$1,600 · 4–8 hours'; url='/charters/corporate-charter.html';
+            why = 'Fully catered option, branded photos, invoicing-friendly. Multi-boat for larger teams.';
+          } else if (state.duration === '8') {
+            pkg='full'; title='Full-Day Charter'; price='$1,600 · 8 hours'; url='/charters/full-day-charter.html';
+            why = 'Multi-species, lunch break, the serious-angler option.';
+          } else if (state.duration === '2') {
+            pkg='sunset'; title='Sunset Cruise'; price='$400 · 2 hours'; url='/charters/sunset-cruise.html';
+            why = 'Short and sweet. Best light on Okanagan Lake.';
+          } else {
+            why = 'The most-booked trip on our calendar. Kokanee in summer, rainbow year-round.';
+          }
+          document.getElementById('wizTitle').textContent = title;
+          document.getElementById('wizWhy').textContent = why;
+          document.getElementById('wizPrice').textContent = price;
+          document.getElementById('wizDetails').href = url;
+          document.getElementById('wizCta').href = `/contact.html?wizard=${pkg}`;
+          setStep(3);
+        }
+      });
+      document.getElementById('wizReset')?.addEventListener('click', () => { state.group = state.duration = state.goal = null; setStep(0); });
+    }
+
     /* ---------- Active nav highlight ---------- */
     const path = location.pathname.replace(/\/$/,'') || '/';
     document.querySelectorAll('.nav a.navlink').forEach(a => {

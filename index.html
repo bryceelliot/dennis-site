@@ -259,6 +259,18 @@
   </div>
 </section>
 
+<!-- SEASON COUNTDOWN + ACTIVITY TICKER -->
+<div class="status-strip reveal">
+  <div class="status-item" data-season>
+    <span class="dot pulse-green"></span>
+    <span id="seasonText">Checking season…</span>
+  </div>
+  <div class="status-item" id="tickerWrap">
+    <span class="dot pulse-amber"></span>
+    <span id="tickerText">Loading recent bookings…</span>
+  </div>
+</div>
+
 <!-- Trust band -->
 <div class="trust-band" role="region" aria-label="Credentials">
   <div class="trust-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 2l2.4 6.9 7.1.2-5.7 4.3 2.2 7-6-4.2-6 4.2 2.2-7-5.7-4.3 7.1-.2z"/></svg>5.0 ★ on Google</div>
@@ -447,6 +459,73 @@
         <a class="btn btn-primary btn-lg" href="/contact.html">Request a Booking</a>
         <a class="btn" style="color:#fff" href="tel:+12509028323">or call 250-902-8323</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUILD YOUR TRIP WIZARD -->
+<section class="section" id="wizard" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Not sure which trip?</span>
+      <h2>Build your charter in 3 questions</h2>
+      <p>Answer 3 quick questions and we'll match you to the right package. Takes 15 seconds.</p>
+    </div>
+    <div class="wizard reveal" id="tripWizard" data-step="0">
+      <div class="wiz-step" data-step="0">
+        <h3>1. Who's coming?</h3>
+        <div class="wiz-opts">
+          <button type="button" data-group="solo">Just me (or 2 adults)</button>
+          <button type="button" data-group="family">Family with kids</button>
+          <button type="button" data-group="friends">Group of friends</button>
+          <button type="button" data-group="couple">Couple (romantic)</button>
+          <button type="button" data-group="corporate">Work team / clients</button>
+        </div>
+      </div>
+      <div class="wiz-step" data-step="1" hidden>
+        <h3>2. How long do you want to be out?</h3>
+        <div class="wiz-opts">
+          <button type="button" data-duration="2">2 hours (cruise)</button>
+          <button type="button" data-duration="4">4 hours (half-day)</button>
+          <button type="button" data-duration="8">8 hours (full-day)</button>
+          <button type="button" data-duration="custom">Not sure — recommend</button>
+        </div>
+      </div>
+      <div class="wiz-step" data-step="2" hidden>
+        <h3>3. What's the goal?</h3>
+        <div class="wiz-opts">
+          <button type="button" data-goal="fishing">Catch fish</button>
+          <button type="button" data-goal="sightseeing">Sightseeing / photos</button>
+          <button type="button" data-goal="celebrate">Special occasion</button>
+          <button type="button" data-goal="both">Mix of everything</button>
+        </div>
+      </div>
+      <div class="wiz-result" data-step="3" hidden>
+        <span class="eyebrow">Your recommendation</span>
+        <h3 id="wizTitle">—</h3>
+        <p id="wizWhy" style="color:var(--ink-2)"></p>
+        <div id="wizPrice" style="font-family:var(--serif);font-size:1.6rem;color:var(--primary);margin:8px 0"></div>
+        <div class="hero-cta" style="margin-top:16px">
+          <a class="btn btn-primary btn-lg" id="wizCta" href="/contact.html">Book this trip</a>
+          <a class="btn btn-ghost" id="wizDetails" href="#">See details</a>
+          <button class="btn btn-ghost" type="button" id="wizReset">Start over</button>
+        </div>
+      </div>
+      <div class="wiz-progress"><span id="wizBar" style="width:0%"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- LIVE LAKE CONDITIONS (Windy) -->
+<section class="section" id="conditions" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Live Okanagan conditions</span>
+      <h2>How's the lake right now?</h2>
+      <p>Live wind, temperature and forecast over Okanagan Lake — straight from Windy. Helpful for planning your trip day.</p>
+    </div>
+    <div class="windy-wrap reveal">
+      <iframe width="100%" height="420" src="https://embed.windy.com/embed2.html?lat=49.888&lon=-119.496&detailLat=49.888&detailLon=-119.496&width=650&height=450&zoom=10&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" frameborder="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Live Okanagan Lake wind and weather"></iframe>
     </div>
   </div>
 </section>
@@ -791,6 +870,11 @@
       <button class="btn" style="background:none;color:var(--muted);padding:14px 8px" data-close>No thanks</button>
     </div>
   </div>
+</div>
+
+<!-- Decorative swimming fish -->
+<div class="swim-fish" aria-hidden="true">
+  <svg viewBox="0 0 60 20" fill="currentColor"><path d="M5 10 C 15 2, 35 2, 45 10 C 35 18, 15 18, 5 10 Z M50 10 L60 5 L60 15 Z M40 8 A1 1 0 1 1 41 8 Z"/></svg>
 </div>
 
 <!-- Vercel Analytics (client-side) -->
