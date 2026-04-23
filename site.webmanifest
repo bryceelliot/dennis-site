@@ -1,0 +1,12 @@
+{
+  "name": "Outdoor Adventures BC — Kelowna Fishing Charters",
+  "short_name": "Outdoor Adventures BC",
+  "description": "Kelowna fishing charters and sightseeing tours on Okanagan, Shuswap and Arrow Lakes.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0B4F6C",
+  "background_color": "#F8F5EF",
+  "icons": [
+    { "src": "/assets/img/outdoor-adventures-bc-logo-coloured.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
