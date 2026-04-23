@@ -1,0 +1,41 @@
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.html"
+      - "sitemap.xml"
+      - "rss.xml"
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Collect changed URLs
+        id: urls
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- '*.html' | \
+            sed 's|index.html||; s|\.html$||; s|^|https://outdooradventuresbc.ca/|' | \
+            jq -R . | jq -s .)
+          echo "urls=$CHANGED" >> $GITHUB_OUTPUT
+
+      - name: Submit to IndexNow
+        if: steps.urls.outputs.urls != '[]'
+        run: |
+          curl -sS -X POST 'https://api.indexnow.org/IndexNow' \
+            -H 'Content-Type: application/json' \
+            -d '{
+              "host": "outdooradventuresbc.ca",
+              "key": "d9ed922ae6f95db585b68cb573ecfaa6",
+              "keyLocation": "https://outdooradventuresbc.ca/d9ed922ae6f95db585b68cb573ecfaa6.txt",
+              "urlList": ${{ steps.urls.outputs.urls }}
+            }' || true
+
+      - name: Ping Google + Bing sitemap
+        run: |
+          curl -sS "https://www.google.com/ping?sitemap=https://outdooradventuresbc.ca/sitemap.xml" || true
+          curl -sS "https://www.bing.com/ping?sitemap=https://outdooradventuresbc.ca/sitemap.xml" || true

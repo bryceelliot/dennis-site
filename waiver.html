@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Digital Waiver — Outdoor Adventures BC Kelowna Charter</title>
+<meta name="description" content="Electronic liability waiver for Outdoor Adventures BC fishing charters and sightseeing tours. Sign in minutes before your trip to save time at the dock."/>
+<meta name="robots" content="index,follow"/>
+<meta name="theme-color" content="#0E3B4F"/>
+<link rel="canonical" href="https://outdooradventuresbc.ca/waiver.html"/>
+<meta property="og:title" content="Digital Waiver — Outdoor Adventures BC"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png"/>
+<link rel="stylesheet" href="/assets/css/styles.css"/>
+<style>
+.sig-pad{border:1px dashed var(--line);border-radius:var(--radius-sm);background:#fff;touch-action:none;width:100%;height:160px;cursor:crosshair;display:block}
+.sig-actions{display:flex;gap:10px;margin-top:8px}
+.waiver-legal{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px;font-size:.92rem;color:var(--ink-2);max-height:320px;overflow-y:auto;line-height:1.65}
+.waiver-legal h3{font-family:var(--sans);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-top:14px}
+.waiver-legal h3:first-child{margin-top:0}
+</style>
+</head>
+<body data-page="waiver">
+<a class="skip" href="#main">Skip to content</a>
+<div class="scroll-progress"></div>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="/"><img src="/assets/img/outdoor-adventures-bc-logo-coloured.png" alt="Outdoor Adventures BC"/><span>Outdoor Adventures BC</span></a><button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><ul><li><a class="navlink" href="/kelowna-fishing-charters.html">Charters</a></li><li><a class="navlink" href="/sightseeing-tours.html">Sightseeing</a></li><li><a class="navlink" href="/pricing.html">Pricing</a></li><li><a class="navlink" href="/blog/">Blog</a></li><li><a class="navlink" href="/reviews.html">Reviews</a></li><li><a class="btn btn-primary" href="/contact.html">Book</a></li></ul></div></header>
+
+<main id="main">
+<section class="section" style="padding-top:56px">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="/">Home</a> › Digital waiver</nav>
+    <div class="section-head reveal" style="max-width:760px">
+      <span class="eyebrow">Pre-trip · 2 minutes</span>
+      <h1 style="font-size:clamp(2rem,4vw,3rem)">Digital liability waiver</h1>
+      <p>Sign this before your charter to save time at the dock. Every guest 18 or older fills one out; parents sign for minors. We keep your waiver on file for the trip only and delete it after unless you request otherwise.</p>
+    </div>
+
+    <div class="split">
+      <form class="form waiver-form" action="mailto:info@outdooradventuresbc.ca?subject=Digital Waiver Signed" method="post" enctype="text/plain">
+        <div><label for="w-name">Full legal name</label><input id="w-name" name="full_name" type="text" required autocomplete="name"/></div>
+        <div class="grid grid-2" style="gap:14px">
+          <div><label for="w-dob">Date of birth</label><input id="w-dob" name="dob" type="date" required/></div>
+          <div><label for="w-phone">Phone</label><input id="w-phone" name="phone" type="tel" required autocomplete="tel"/></div>
+        </div>
+        <div><label for="w-email">Email</label><input id="w-email" name="email" type="email" required autocomplete="email"/></div>
+        <div><label for="w-address">Home address</label><input id="w-address" name="address" type="text" autocomplete="street-address"/></div>
+        <div class="grid grid-2" style="gap:14px">
+          <div><label for="w-emergency-name">Emergency contact name</label><input id="w-emergency-name" name="emergency_name" type="text" required/></div>
+          <div><label for="w-emergency-phone">Emergency contact phone</label><input id="w-emergency-phone" name="emergency_phone" type="tel" required/></div>
+        </div>
+        <div><label for="w-medical">Relevant medical conditions (optional, confidential)</label><textarea id="w-medical" name="medical" placeholder="Allergies, heart condition, seasickness, mobility needs…"></textarea></div>
+        <div><label for="w-swim">Swimming ability</label>
+          <select id="w-swim" name="swim" required>
+            <option>Strong swimmer</option>
+            <option>Moderate swimmer</option>
+            <option>Weak / non-swimmer (we'll adjust life-jacket plan)</option>
+          </select>
+        </div>
+        <div><label for="w-trip-date">Trip date</label><input id="w-trip-date" name="trip_date" type="date" required/></div>
+
+        <label style="display:flex;gap:10px;align-items:flex-start;font-weight:500;margin-top:6px">
+          <input type="checkbox" name="agree" required style="margin-top:5px;width:18px;height:18px;accent-color:var(--accent)"/>
+          <span>I have read the liability release below and agree to its terms on behalf of myself and any minors in my party.</span>
+        </label>
+
+        <div>
+          <label>Signature (type your full name as electronic signature)</label>
+          <input name="signature" type="text" required placeholder="e.g. John Q. Smith" style="font-family:'Fraunces',serif;font-size:1.4rem;font-style:italic"/>
+        </div>
+        <div>
+          <label for="w-date">Signed on</label>
+          <input id="w-date" name="signed_date" type="date" required/>
+        </div>
+
+        <button class="btn btn-primary btn-lg" type="submit">Submit waiver</button>
+        <p style="font-size:.85rem;color:var(--muted);margin:0">Prefer paper? <a href="/assets/waiver-print.pdf">Print PDF</a> and bring it to the dock — or we'll have one ready for you.</p>
+      </form>
+
+      <aside>
+        <div class="waiver-legal">
+          <h3>Liability release and assumption of risk</h3>
+          <p>I acknowledge that participation in fishing charters, sightseeing tours and any related on-water activities (collectively, the "Activities") operated by Outdoor Adventures BC ("the Operator") involves inherent and unavoidable risks including but not limited to: drowning, cold-water immersion, slips, falls, collision, equipment failure, weather, wildlife encounters, and injury from fishing hooks, lines and tackle.</p>
+          <h3>Assumption of risk</h3>
+          <p>I voluntarily choose to participate in the Activities and accept all risks associated with participation. I confirm I am in adequate physical condition and have disclosed any condition that could affect my safety.</p>
+          <h3>Release of liability</h3>
+          <p>To the maximum extent permitted by law in British Columbia, Canada, I release, waive and discharge the Operator, its owners, employees, agents and contractors from any and all claims, demands, losses, damages, costs and expenses of any kind arising out of or related to the Activities, except where caused by gross negligence or wilful misconduct of the Operator.</p>
+          <h3>Captain's authority</h3>
+          <p>I agree that the Captain has absolute authority regarding safety, weather, route and conduct onboard. I agree to follow all instructions given by the Captain and to wear a personal flotation device when directed.</p>
+          <h3>Media consent</h3>
+          <p>I consent to the Operator photographing and filming the Activities for marketing and social-media use unless I opt out in writing at the time of the trip.</p>
+          <h3>Minors</h3>
+          <p>If I am signing on behalf of a minor, I represent that I am the minor's parent or legal guardian with authority to sign, and that the release above applies to the minor on the same terms.</p>
+          <h3>Governing law</h3>
+          <p>This agreement is governed by the laws of British Columbia, Canada. Any dispute will be resolved in the courts of British Columbia.</p>
+        </div>
+
+        <div class="facts-box" style="margin-top:20px">
+          <h3>Privacy</h3>
+          <dl>
+            <dt>What we collect</dt><dd>Only what's on this form</dd>
+            <dt>How we use it</dt><dd>Safety + emergency contact for your trip</dd>
+            <dt>Retention</dt><dd>Deleted 30 days after your trip unless you ask us to keep it</dd>
+            <dt>Sharing</dt><dd>Never shared with third parties</dd>
+          </dl>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><img src="/assets/img/outdoor-adventures-bc-logo-coloured.png" alt="Outdoor Adventures BC"/><p>Kelowna-based fishing charters and sightseeing tours on Okanagan, Shuswap and Arrow Lakes.</p><p style="margin-top:8px"><a href="tel:+12509028323" style="color:#fff;font-weight:600">250-902-8323</a></p></div><div><h4>Charters</h4><ul><li><a href="/kelowna-fishing-charters.html">Fishing Charters</a></li><li><a href="/gift-certificates.html">Gift certificates</a></li></ul></div><div><h4>Lakes</h4><ul><li><a href="/lakes/okanagan-lake.html">Okanagan Lake</a></li><li><a href="/lakes/shuswap-lake.html">Shuswap Lake</a></li><li><a href="/lakes/arrow-lake.html">Arrow Lakes</a></li></ul></div><div><h4>Company</h4><ul><li><a href="/captain.html">The captain</a></li><li><a href="/reviews.html">Reviews</a></li><li><a href="/refer.html">Refer a friend</a></li><li><a href="/waiver.html">Digital waiver</a></li><li><a href="/contact.html">Contact</a></li></ul></div></div><div class="footer-bottom"><span>© <span data-year></span> Outdoor Adventures BC · Kelowna, BC · Built by <a href="https://elliotdigital.ca" rel="noopener" style="color:#fff">Elliot Digital</a></span><span><a href="/legal/privacy.html">Privacy</a> · <a href="/legal/terms.html">Terms</a></span></div></div></footer>
+
+<a href="tel:+12509028323" class="fab-call" aria-label="Call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.8 19.8 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72 12.8 12.8 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.8 12.8 0 002.81.7A2 2 0 0122 16.92z"/></svg></a>
+<script src="/assets/js/main.js" defer></script>
+</body></html>
