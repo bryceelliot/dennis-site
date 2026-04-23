@@ -1,5 +1,5 @@
 // Outdoor Adventures BC — service worker
-const VERSION = 'v1-2026-04-22';
+const VERSION = 'v2-2026-04-23';
 const CORE = [
   '/',
   '/offline.html',
