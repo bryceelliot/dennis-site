@@ -93,18 +93,6 @@
       });
     });
 
-    /* ---------- Dark mode toggle ---------- */
-    const themeKey = 'oabc-theme';
-    const savedTheme = localStorage.getItem(themeKey);
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) document.body.classList.add('dark');
-    document.querySelectorAll('.theme-toggle').forEach(tt => {
-      tt.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-        localStorage.setItem(themeKey, document.body.classList.contains('dark') ? 'dark' : 'light');
-      });
-    });
-
     /* ---------- Custom cursor (desktop only, hover-capable) ---------- */
     if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && !reducedMotion && window.innerWidth > 900) {
       const dot = document.createElement('div'); dot.className = 'cursor-dot';
