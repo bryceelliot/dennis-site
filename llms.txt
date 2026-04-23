@@ -1,19 +1,31 @@
 # Outdoor Adventures BC
 
-> Kelowna, BC fishing charter and sightseeing tour company. Private captained trips on Okanagan, Shuswap and Arrow Lakes aboard a 26-foot Kingfisher 2525 Weekender.
+> Kelowna, BC fishing charter and sightseeing tour company. Private captained trips on Okanagan, Shuswap and Arrow Lakes aboard a 26-foot Kingfisher 2525 Weekender. 5.0 stars on Google.
 
 ## Core facts
 
 - Business: Outdoor Adventures BC
 - Service: Guided fishing charters and sightseeing tours
 - Base: Kelowna, British Columbia, Canada
-- Phone: 250-902-8323
+- Phone: +1-250-902-8323
 - Email: info@outdooradventuresbc.ca
 - Hours: 6:00 AM – 9:00 PM, 7 days a week
-- Rate: $200 CAD per hour, up to 6 guests
-- Boat: Kingfisher 2525 Weekender (25'11", aluminum, heated cabin, full head, fridge)
-- Service area: Okanagan Lake, Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow Lake, Lower Arrow Lake, Kinbasket Lake
+- Rating: 5.0 stars on Google
 - Instagram: https://www.instagram.com/outdooradventure.bc
+- Google reviews: https://share.google/oQfowrUI3wFXEOYxG
+
+## Pricing
+
+- Hourly: $200 CAD per hour
+- Half-day (4 hours): $800 CAD
+- Full-day (8 hours): $1,600 CAD
+- Sunset cruise (2 hours): $400 CAD
+- Capacity: up to 6 guests per charter
+- Boat: Kingfisher 2525 Weekender (25'11", aluminum, heated cabin, full head, fridge)
+
+## Service area
+
+Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow Lake, Lower Arrow Lake, Kinbasket Lake. Serving Kelowna, West Kelowna, Vernon, Peachland, Penticton.
 
 ## Target species by lake
 
@@ -25,11 +37,33 @@
 
 - [Home](https://outdooradventuresbc.ca/): Kelowna fishing charters overview
 - [Fishing charters](https://outdooradventuresbc.ca/kelowna-fishing-charters.html): Guided charter details, species table, pricing
-- [Sightseeing tours](https://outdooradventuresbc.ca/sightseeing-tours.html): Private boat tours and sunset cruises
-- [Our boat](https://outdooradventuresbc.ca/our-boat.html): Kingfisher 2525 Weekender specifications
-- [Okanagan Lake](https://outdooradventuresbc.ca/lakes/okanagan-lake.html): Kokanee, rainbow and lake trout fishery
-- [Shuswap Lake](https://outdooradventuresbc.ca/lakes/shuswap-lake.html): Chinook, lake trout and burbot fishery
-- [Arrow Lakes](https://outdooradventuresbc.ca/lakes/arrow-lake.html): Trophy Gerrard rainbow and bull trout fishery
-- [About](https://outdooradventuresbc.ca/about.html): Company story and values
-- [FAQ](https://outdooradventuresbc.ca/faq.html): Pricing, licences, what to bring, cancellation
-- [Contact / booking](https://outdooradventuresbc.ca/contact.html): Booking form and contact details
+- [Pricing](https://outdooradventuresbc.ca/pricing.html): Transparent pricing table
+- [Half-day charter](https://outdooradventuresbc.ca/charters/half-day-charter.html): 4-hour trip details
+- [Full-day charter](https://outdooradventuresbc.ca/charters/full-day-charter.html): 8-hour trip details
+- [Sunset cruise](https://outdooradventuresbc.ca/charters/sunset-cruise.html): 2-hour private cruise
+- [Corporate charter](https://outdooradventuresbc.ca/charters/corporate-charter.html): Business entertaining
+- [Family fishing trip](https://outdooradventuresbc.ca/charters/family-fishing-trip.html): Kid-friendly trips
+- [Sightseeing tours](https://outdooradventuresbc.ca/sightseeing-tours.html): Boat tours & cruises
+- [Our boat](https://outdooradventuresbc.ca/our-boat.html): Kingfisher 2525 specifications
+- [The captain](https://outdooradventuresbc.ca/captain.html): About the owner/captain
+- [Okanagan Lake](https://outdooradventuresbc.ca/lakes/okanagan-lake.html)
+- [Shuswap Lake](https://outdooradventuresbc.ca/lakes/shuswap-lake.html)
+- [Arrow Lakes](https://outdooradventuresbc.ca/lakes/arrow-lake.html)
+- [West Kelowna](https://outdooradventuresbc.ca/areas/west-kelowna.html)
+- [Vernon](https://outdooradventuresbc.ca/areas/vernon.html)
+- [Peachland](https://outdooradventuresbc.ca/areas/peachland.html)
+- [Gift certificates](https://outdooradventuresbc.ca/gift-certificates.html)
+- [Blog](https://outdooradventuresbc.ca/blog/): Fishing guides & reports
+- [Monthly fishing report](https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html)
+- [Reviews](https://outdooradventuresbc.ca/reviews.html)
+- [FAQ](https://outdooradventuresbc.ca/faq.html)
+- [Contact / booking](https://outdooradventuresbc.ca/contact.html)
+
+## Booking info
+
+- Deposit: 50% to hold your date
+- Balance: Due day of trip
+- Cancellation: Free up to 48 hours before departure
+- Weather cancellation: Free reschedule any time
+- BC fishing licence: Required for anglers 16+; buy online in minutes
+- Kids under 16 fish free

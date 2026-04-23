@@ -1,0 +1,15 @@
+/* TEAM */
+Owner & Captain: Outdoor Adventures BC
+Location: Kelowna, British Columbia, Canada
+Contact: info@outdooradventuresbc.ca
+Phone: +1-250-902-8323
+
+/* SITE */
+Last update: 2026/04/22
+Language: English (Canada)
+Standards: HTML5, CSS3, Schema.org JSON-LD
+Components: Vanilla (no framework)
+Hosted on: Vercel
+
+/* THANKS */
+To every guest who's shared the dock with us on Okanagan, Shuswap or Arrow Lake.
