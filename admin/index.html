@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>Admin — Outdoor Adventures BC</title>
+<link rel="icon" type="image/png" href="/assets/img/favicon-32.png"/>
+<link rel="stylesheet" href="/assets/css/styles.css"/>
+<style>
+.admin{max-width:760px;margin:0 auto;padding:60px 20px}
+.admin textarea{min-height:280px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.95rem}
+.admin .preview{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;margin-top:20px}
+.admin .preview h3{margin-top:0}
+.gated{display:none}
+.gated.show{display:block}
+</style>
+</head>
+<body>
+<header class="nav"><div class="container nav-inner"><a class="brand" href="/"><img src="/assets/img/outdoor-adventures-bc-logo-coloured.png" alt="Outdoor Adventures BC"/><span>Admin</span></a></div></header>
+
+<main class="admin">
+  <h1 style="font-size:2rem">Fishing report editor</h1>
+  <p style="color:var(--ink-2)">Paste a paragraph, pick an image, click Preview. Then copy the generated HTML and Bryce'll publish it next time he deploys — or send the text directly to him via SMS/email.</p>
+
+  <div id="gate">
+    <p style="color:var(--muted)">Enter the admin password to continue.</p>
+    <input id="pw" type="password" placeholder="Password" style="width:100%;max-width:300px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;font-size:1rem"/>
+    <button id="unlock" class="btn btn-primary" style="margin-left:8px">Unlock</button>
+  </div>
+
+  <section class="gated" id="editor">
+    <form class="form">
+      <div><label>Date</label><input id="f-date" type="date" required/></div>
+      <div><label>Headline</label><input id="f-title" type="text" placeholder="Kelowna Fishing Report — June 1, 2026" required/></div>
+      <div><label>Summary (1 sentence)</label><input id="f-summary" type="text" placeholder="Kokanee turned on this week. Here's where we're finding them." required/></div>
+      <div><label>Body (plain text — line breaks OK)</label><textarea id="f-body" placeholder="Paste or type your report. The captain's voice works best."></textarea></div>
+      <div><label>Image path on site</label>
+        <select id="f-image">
+          <option value="/assets/img/captain-trophy-rainbow.jpg">captain-trophy-rainbow.jpg</option>
+          <option value="/assets/img/rod-bent-kelowna-bridge.jpg">rod-bent-kelowna-bridge.jpg</option>
+          <option value="/assets/img/trophy-rainbow-in-net.jpg">trophy-rainbow-in-net.jpg</option>
+          <option value="/assets/img/stern-trolling-okanagan.jpg">stern-trolling-okanagan.jpg</option>
+          <option value="/assets/img/rods-sunset-trolling.jpg">rods-sunset-trolling.jpg</option>
+          <option value="/assets/img/okanagan-lake-1024x682.jpg">okanagan-lake-1024x682.jpg</option>
+          <option value="/assets/img/moonlit-dock.jpg">moonlit-dock.jpg</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary" id="gen">Generate HTML →</button>
+      <button type="button" class="btn btn-secondary" id="sms">Send as SMS to Bryce</button>
+    </form>
+
+    <div class="preview" id="preview-wrap" style="display:none">
+      <h3>Generated HTML (copy this)</h3>
+      <textarea id="html-out" readonly style="min-height:360px;width:100%"></textarea>
+      <button class="btn btn-ghost" id="copy" style="margin-top:10px">Copy to clipboard</button>
+    </div>
+  </section>
+</main>
+
+<script>
+const PW = 'kokanee2026'; // simple gate, change per Dennis preference
+document.getElementById('unlock').onclick = () => {
+  if (document.getElementById('pw').value === PW){
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('editor').classList.add('show');
+    sessionStorage.setItem('oabc-admin','1');
+  } else alert('Wrong password');
+};
+if (sessionStorage.getItem('oabc-admin')==='1'){ document.getElementById('gate').style.display='none'; document.getElementById('editor').classList.add('show'); }
+// Auto-fill today
+document.getElementById('f-date').valueAsDate = new Date();
+
+function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+document.getElementById('gen').onclick = () => {
+  const d = document.getElementById('f-date').value;
+  const t = document.getElementById('f-title').value;
+  const s = document.getElementById('f-summary').value;
+  const b = document.getElementById('f-body').value.split(/\n\n+/).map(p=>'<p>'+esc(p).replace(/\n/g,'<br/>')+'</p>').join('\n');
+  const img = document.getElementById('f-image').value;
+  const html = `<!-- Fishing report ${d} -->
+<article class="section" style="padding-top:56px"><div class="container"><div class="prose" style="max-width:760px;margin:0 auto">
+<nav class="breadcrumbs"><a href="/">Home</a> › <a href="/blog/">Blog</a> › ${esc(t)}</nav>
+<h1>${esc(t)}</h1>
+<p style="color:var(--muted);font-size:.9rem">Published ${d} · Dennis Barnes</p>
+<p class="lede" style="font-size:1.15rem;color:var(--ink-2)">${esc(s)}</p>
+<img src="${img}" alt="${esc(t)}" style="border-radius:var(--radius);margin:20px 0" loading="lazy"/>
+${b}
+<hr/>
+<p><strong>Want a trip like this?</strong> <a href="/contact.html">Book a Kelowna fishing charter</a> with Dennis.</p>
+</div></div></article>`;
+  document.getElementById('html-out').value = html;
+  document.getElementById('preview-wrap').style.display = 'block';
+};
+document.getElementById('copy').onclick = () => {
+  const t = document.getElementById('html-out');
+  t.select(); document.execCommand('copy');
+  alert('Copied — paste into Bryce\\'s email or a new blog file.');
+};
+document.getElementById('sms').onclick = () => {
+  const d = document.getElementById('f-date').value;
+  const t = document.getElementById('f-title').value;
+  const s = document.getElementById('f-summary').value;
+  const body = document.getElementById('f-body').value;
+  const msg = `Fishing report ${d}\n\nTitle: ${t}\n\nSummary: ${s}\n\n${body}`;
+  window.location = 'sms:+15555555555?&body=' + encodeURIComponent(msg); // replace with Bryce's number
+};
+</script>
+</body></html>

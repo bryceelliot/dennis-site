@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://outdooradventuresbc.ca/</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/home.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/hero-poster.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/captain-trophy-rainbow.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/kingfisher-profile.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://outdooradventuresbc.ca/captain.html</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/captain.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/captain-with-rainbow.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://outdooradventuresbc.ca/our-boat.html</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/boat.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/cabin-interior.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/helm-fishfinder.jpg</image:loc></image:image>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/cabin-head-bathroom.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://outdooradventuresbc.ca/stay-fish.html</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/stay-fish.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://outdooradventuresbc.ca/species/</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/species.jpg</image:loc></image:image>
+  </url>
+  <url><loc>https://outdooradventuresbc.ca/things-to-do-kelowna.html</loc>
+    <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/og/things-to-do.jpg</image:loc></image:image>
+  </url>
+</urlset>

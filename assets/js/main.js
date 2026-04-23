@@ -1,6 +1,13 @@
 // Outdoor Adventures BC — interactions (max polish)
 (function () {
   const ready = (fn) => (document.readyState !== 'loading') ? fn() : document.addEventListener('DOMContentLoaded', fn);
+
+  // Register service worker (PWA + offline)
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(() => {});
+    });
+  }
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   ready(() => {
