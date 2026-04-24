@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Outdoor Adventures BC — Kelowna Fishing Blog</title>
-  <link>https://outdooradventuresbc.ca/blog/</link>
-  <description>Fishing guides, reports and tips from a working Kelowna charter captain.</description>
-  <language>en-ca</language>
-  <atom:link href="https://outdooradventuresbc.ca/rss.xml" rel="self" type="application/rss+xml"/>
-  <image>
-    <url>https://outdooradventuresbc.ca/assets/img/outdoor-adventures-bc-logo-coloured.png</url>
-    <title>Outdoor Adventures BC</title>
-    <link>https://outdooradventuresbc.ca/</link>
-  </image>
+ <title>Outdoor Adventures BC — Kelowna Fishing Blog</title>
+ <link>https://outdooradventuresbc.ca/blog/</link>
+ <description>Fishing guides, reports and tips from a working Kelowna charter captain.</description>
+ <language>en-ca</language>
+ <atom:link href="https://outdooradventuresbc.ca/rss.xml" rel="self" type="application/rss+xml"/>
+ <image>
+ <url>https://outdooradventuresbc.ca/assets/img/outdoor-adventures-bc-logo-coloured.png</url>
+ <title>Outdoor Adventures BC</title>
+ <link>https://outdooradventuresbc.ca/</link>
+ </image>
 
-  <item>
-    <title>Kelowna Fishing Report — April 2026</title>
-    <link>https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html</guid>
-    <pubDate>Tue, 01 Apr 2026 08:00:00 -0700</pubDate>
-    <description>What's biting on Okanagan, Shuswap and Arrow Lakes this month — depths, lures and conditions.</description>
-  </item>
-  <item>
-    <title>Best Time to Fish Okanagan Lake — A Month-by-Month Guide</title>
-    <link>https://outdooradventuresbc.ca/blog/best-time-fish-okanagan-lake.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/best-time-fish-okanagan-lake.html</guid>
-    <pubDate>Sun, 15 Mar 2026 08:00:00 -0700</pubDate>
-    <description>A month-by-month guide to fishing Okanagan Lake from a captain who fishes it year-round.</description>
-  </item>
-  <item>
-    <title>Kokanee Trolling Setup Guide — Okanagan Lake Specifics</title>
-    <link>https://outdooradventuresbc.ca/blog/kokanee-trolling-setup-guide.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kokanee-trolling-setup-guide.html</guid>
-    <pubDate>Wed, 01 Apr 2026 08:00:00 -0700</pubDate>
-    <description>The downrigger, leader, dodger and hoochie setup we run on Okanagan Lake.</description>
-  </item>
-  <item>
-    <title>BC Fishing Licence — The 3-Minute Guide</title>
-    <link>https://outdooradventuresbc.ca/blog/kelowna-fishing-licence-guide.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kelowna-fishing-licence-guide.html</guid>
-    <pubDate>Fri, 20 Mar 2026 08:00:00 -0700</pubDate>
-    <description>Short guide to buying a BC freshwater fishing licence before your Kelowna charter.</description>
-  </item>
-  <item>
-    <title>What to Bring on a Kelowna Fishing Charter</title>
-    <link>https://outdooradventuresbc.ca/blog/what-to-bring-kelowna-charter.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/what-to-bring-kelowna-charter.html</guid>
-    <pubDate>Tue, 10 Mar 2026 08:00:00 -0700</pubDate>
-    <description>The short packing list for a Kelowna charter. What to bring, what to skip.</description>
-  </item>
-  <item>
-    <title>A Kid's First Fishing Trip — How to Set It Up Right</title>
-    <link>https://outdooradventuresbc.ca/blog/first-fishing-trip-kids.html</link>
-    <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/first-fishing-trip-kids.html</guid>
-    <pubDate>Wed, 08 Apr 2026 08:00:00 -0700</pubDate>
-    <description>How to set up a Kelowna charter that kids actually love.</description>
-  </item>
+ <item>
+ <title>Kelowna Fishing Report — April 2026</title>
+ <link>https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html</guid>
+ <pubDate>Tue, 01 Apr 2026 08:00:00 -0700</pubDate>
+ <description>What's biting on Okanagan, Shuswap and Arrow Lakes this month — depths, lures and conditions.</description>
+ </item>
+ <item>
+ <title>Best Time to Fish Okanagan Lake — A Month-by-Month Guide</title>
+ <link>https://outdooradventuresbc.ca/blog/best-time-fish-okanagan-lake.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/best-time-fish-okanagan-lake.html</guid>
+ <pubDate>Sun, 15 Mar 2026 08:00:00 -0700</pubDate>
+ <description>A month-by-month guide to fishing Okanagan Lake from a captain who fishes it year-round.</description>
+ </item>
+ <item>
+ <title>Kokanee Trolling Setup Guide — Okanagan Lake Specifics</title>
+ <link>https://outdooradventuresbc.ca/blog/kokanee-trolling-setup-guide.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kokanee-trolling-setup-guide.html</guid>
+ <pubDate>Wed, 01 Apr 2026 08:00:00 -0700</pubDate>
+ <description>The downrigger, leader, dodger and hoochie setup we run on Okanagan Lake.</description>
+ </item>
+ <item>
+ <title>BC Fishing Licence — The 3-Minute Guide</title>
+ <link>https://outdooradventuresbc.ca/blog/kelowna-fishing-licence-guide.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/kelowna-fishing-licence-guide.html</guid>
+ <pubDate>Fri, 20 Mar 2026 08:00:00 -0700</pubDate>
+ <description>Short guide to buying a BC freshwater fishing licence before your Kelowna charter.</description>
+ </item>
+ <item>
+ <title>What to Bring on a Kelowna Fishing Charter</title>
+ <link>https://outdooradventuresbc.ca/blog/what-to-bring-kelowna-charter.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/what-to-bring-kelowna-charter.html</guid>
+ <pubDate>Tue, 10 Mar 2026 08:00:00 -0700</pubDate>
+ <description>The short packing list for a Kelowna charter. What to bring, what to skip.</description>
+ </item>
+ <item>
+ <title>A Kid's First Fishing Trip — How to Set It Up Right</title>
+ <link>https://outdooradventuresbc.ca/blog/first-fishing-trip-kids.html</link>
+ <guid isPermaLink="true">https://outdooradventuresbc.ca/blog/first-fishing-trip-kids.html</guid>
+ <pubDate>Wed, 08 Apr 2026 08:00:00 -0700</pubDate>
+ <description>How to set up a Kelowna charter that kids actually love.</description>
+ </item>
 
 </channel>
 </rss>

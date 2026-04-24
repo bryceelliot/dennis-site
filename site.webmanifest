@@ -1,24 +1,24 @@
 {
-  "name": "Outdoor Adventures BC — Kelowna Fishing Charters",
-  "short_name": "Outdoor Adventures BC",
-  "description": "Kelowna fishing charters and sightseeing tours on Okanagan, Shuswap and Arrow Lakes.",
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#0E3B4F",
-  "background_color": "#F6F1E7",
-  "orientation": "portrait-primary",
-  "categories": ["travel", "sports", "lifestyle"],
-  "icons": [
-    { "src": "/assets/img/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/assets/img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/assets/img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
-  ],
-  "screenshots": [
-    { "src": "/assets/img/hero-poster.jpg", "sizes": "1920x1080", "type": "image/jpeg" }
-  ],
-  "shortcuts": [
-    {"name": "Book a charter", "url": "/contact.html"},
-    {"name": "Pricing", "url": "/pricing.html"},
-    {"name": "Reviews", "url": "/reviews.html"}
-  ]
+ "name": "Outdoor Adventures BC — Kelowna Fishing Charters",
+ "short_name": "Outdoor Adventures BC",
+ "description": "Kelowna fishing charters and sightseeing tours on Okanagan, Shuswap and Arrow Lakes.",
+ "start_url": "/",
+ "display": "standalone",
+ "theme_color": "#0E3B4F",
+ "background_color": "#F6F1E7",
+ "orientation": "portrait-primary",
+ "categories": ["travel", "sports", "lifestyle"],
+ "icons": [
+ { "src": "/assets/img/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+ { "src": "/assets/img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+ { "src": "/assets/img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+ ],
+ "screenshots": [
+ { "src": "/assets/img/hero-poster.jpg", "sizes": "1920x1080", "type": "image/jpeg" }
+ ],
+ "shortcuts": [
+ {"name": "Book a charter", "url": "/contact.html"},
+ {"name": "Pricing", "url": "/pricing.html"},
+ {"name": "Reviews", "url": "/reviews.html"}
+ ]
 }
