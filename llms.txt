@@ -31,7 +31,7 @@ Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow L
 
 ## Target species by lake
 
-- Okanagan Lake (Kelowna): kokanee salmon, rainbow trout, lake trout
+- Okanagan Lake (Kelowna): kokanee salmon, rainbow trout
 - Shuswap Lake: chinook salmon, lake trout, rainbow trout, burbot
 - Arrow Lakes: Gerrard rainbow trout, bull trout, kokanee salmon, rainbow trout
 

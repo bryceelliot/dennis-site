@@ -753,6 +753,23 @@ body{opacity:0;animation:pageIn .5s ease-out .1s forwards}
 .windy-wrap iframe{display:block;width:100%;border:0}
 
 /* =========================================================
+   Mobile portrait orientation lock
+   ========================================================= */
+@media screen and (max-width:900px) and (orientation:landscape){
+  body{overflow:hidden}
+  body::before{
+    content:"";position:fixed;inset:0;background:#0E3B4F;z-index:9999;
+  }
+  body::after{
+    content:"↻  Please rotate to portrait";
+    position:fixed;inset:0;z-index:10000;
+    display:grid;place-items:center;
+    color:#fff;font-family:var(--serif);font-size:1.6rem;text-align:center;padding:20px;
+    letter-spacing:.02em;font-weight:600;
+  }
+}
+
+/* =========================================================
    Hover-expand card variant
    ========================================================= */
 .card.card-expand .card-body p{max-height:3.2em;overflow:hidden;transition:max-height .4s ease}

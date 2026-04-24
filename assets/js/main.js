@@ -144,26 +144,6 @@
         .catch(() => wx.innerHTML = '<span class="wx-icon">🌊</span><span>Kelowna, BC · on the water 7 days a week</span>');
     }
 
-    /* ---------- Exit-intent modal (desktop) ---------- */
-    const modalKey = 'oabc-exit-shown';
-    const backdrop = document.querySelector('#exit-modal');
-    if (backdrop && !sessionStorage.getItem(modalKey) && window.innerWidth > 820) {
-      let shown = false;
-      const show = () => {
-        if (shown) return;
-        shown = true;
-        backdrop.classList.add('open');
-        sessionStorage.setItem(modalKey, '1');
-      };
-      document.addEventListener('mouseout', (e) => {
-        if (!e.relatedTarget && e.clientY < 30) show();
-      });
-      // Also show after 45s if they haven't left yet
-      setTimeout(show, 45000);
-      backdrop.addEventListener('click', (e) => { if (e.target === backdrop) backdrop.classList.remove('open'); });
-      backdrop.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => backdrop.classList.remove('open')));
-    }
-
     /* ---------- Hero video: pause off-screen, respect data-saver ---------- */
     const hv = document.querySelector('.hero-video');
     if (hv) {
