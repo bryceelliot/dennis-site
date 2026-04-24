@@ -172,7 +172,7 @@
       if (now >= kokaneeOpen && now <= kokaneeClose) {
         msg = '<strong>Kokanee season is open</strong> — peak biting on Okanagan Lake';
       } else if (now > kokaneeClose && now < lakerPrime) {
-        msg = '<strong>Transition season</strong> — rainbow strong, lake trout rising';
+        msg = '<strong>Transition season</strong> — rainbow strong, fish rising';
       } else if (now >= lakerPrime) {
         const daysToKokanee = Math.ceil((new Date(year + 1, 4, 1) - now) / (1000*60*60*24));
         msg = `<strong>Lake-trout season</strong> — kokanee season opens in ${daysToKokanee} days`;

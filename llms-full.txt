@@ -58,8 +58,7 @@ This document is a plain-text, comprehensive snapshot of the Outdoor Adventures 
 
 ### Shuswap Lake
 - Chinook salmon (landlocked) — summer peak, 5–15 lbs. Tactic: downrigger trolling deep (80–120 ft) with Apex plugs or squid-pattern hoochies.
-- Lake trout — spring and fall. Seymour and Anstey arms are best.
-- Rainbow trout — year-round across all four arms.
+- - Rainbow trout — year-round across all four arms.
 - Burbot (freshwater cod) — winter specialty. Jigging 60–120 ft over structural drop-offs with heavy jigs tipped with cut bait.
 
 ### Arrow Lakes (Upper and Lower)
@@ -70,7 +69,7 @@ This document is a plain-text, comprehensive snapshot of the Outdoor Adventures 
 
 ### Kalamalka Lake (near Vernon)
 - Rainbow trout — strong population, great sight-fishing in the lake's signature turquoise water. 20–40 ft trolling.
-- Lake trout — 60–120 ft, structure-oriented.
+- fish — 60–120 ft, structure-oriented.
 - Kokanee — smaller than Okanagan kokanee but present.
 
 ### Mabel Lake (east of Shuswap, remote)
@@ -131,7 +130,7 @@ Dennis owns and hosts a Kelowna Airbnb designed for visiting anglers and familie
 
 - Barbless hooks on every line (BC regulation in most waters, standard on every charter we run)
 - Net-in-water release photography on all released fish
-- Strict voluntary release on lake trout over 8 lbs
+- Strict voluntary release on fish over 8 lbs
 - Daily boat inspections for invasive species (zebra/quagga mussels) when switching lakes
 - Reporting tagged fish to the Freshwater Fisheries Society of BC
 
