@@ -32,8 +32,8 @@ Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow L
 ## Target species by lake
 
 - Okanagan Lake (Kelowna): kokanee salmon
-- Shuswap Lake: chinook salmon, burbot
-- Arrow Lakes: Gerrard, kokanee salmon
+- Shuswap Lake: chinook salmon (summer), burbot (winter)
+- Arrow Lakes / Kalamalka / Mabel: custom multi-day adventures and sightseeing cruises
 
 ## Pages
 
