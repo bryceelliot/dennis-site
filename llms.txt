@@ -37,29 +37,29 @@ Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow L
 
 ## Pages
 
-- [Home](https://outdooradventuresbc.ca/): Kelowna fishing charters overview
-- [Fishing charters](https://outdooradventuresbc.ca/kelowna-fishing-charters.html): Guided charter details, species table, pricing
-- [Pricing](https://outdooradventuresbc.ca/pricing.html): Transparent pricing table
-- [Half-day charter](https://outdooradventuresbc.ca/charters/half-day-charter.html): 4-hour trip details
-- [Full-day charter](https://outdooradventuresbc.ca/charters/full-day-charter.html): 8-hour trip details
-- [Sunset cruise](https://outdooradventuresbc.ca/charters/sunset-cruise.html): 2-hour private cruise
-- [Corporate charter](https://outdooradventuresbc.ca/charters/corporate-charter.html): Business entertaining
-- [Family fishing trip](https://outdooradventuresbc.ca/charters/family-fishing-trip.html): Kid-friendly trips
-- [Sightseeing tours](https://outdooradventuresbc.ca/sightseeing-tours.html): Boat tours & cruises
-- [Our boat](https://outdooradventuresbc.ca/our-boat.html): Kingfisher 2525 specifications
-- [The captain](https://outdooradventuresbc.ca/captain.html): About the owner/captain
-- [Okanagan Lake](https://outdooradventuresbc.ca/lakes/okanagan-lake.html)
-- [Shuswap Lake](https://outdooradventuresbc.ca/lakes/shuswap-lake.html)
-- [Arrow Lakes](https://outdooradventuresbc.ca/lakes/arrow-lake.html)
-- [West Kelowna](https://outdooradventuresbc.ca/areas/west-kelowna.html)
-- [Vernon](https://outdooradventuresbc.ca/areas/vernon.html)
-- [Peachland](https://outdooradventuresbc.ca/areas/peachland.html)
-- [Gift certificates](https://outdooradventuresbc.ca/gift-certificates.html)
-- [Blog](https://outdooradventuresbc.ca/blog/): Fishing guides & reports
-- [Monthly fishing report](https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html)
-- [Reviews](https://outdooradventuresbc.ca/reviews.html)
-- [FAQ](https://outdooradventuresbc.ca/faq.html)
-- [Contact / booking](https://outdooradventuresbc.ca/contact.html)
+- [Home](https://outdooradventuresbc.com/): Kelowna fishing charters overview
+- [Fishing charters](https://outdooradventuresbc.com/kelowna-fishing-charters.html): Guided charter details, species table, pricing
+- [Pricing](https://outdooradventuresbc.com/pricing.html): Transparent pricing table
+- [Half-day charter](https://outdooradventuresbc.com/charters/half-day-charter.html): 4-hour trip details
+- [Full-day charter](https://outdooradventuresbc.com/charters/full-day-charter.html): 8-hour trip details
+- [Sunset cruise](https://outdooradventuresbc.com/charters/sunset-cruise.html): 2-hour private cruise
+- [Corporate charter](https://outdooradventuresbc.com/charters/corporate-charter.html): Business entertaining
+- [Family fishing trip](https://outdooradventuresbc.com/charters/family-fishing-trip.html): Kid-friendly trips
+- [Sightseeing tours](https://outdooradventuresbc.com/sightseeing-tours.html): Boat tours & cruises
+- [Our boat](https://outdooradventuresbc.com/our-boat.html): Kingfisher 2525 specifications
+- [The captain](https://outdooradventuresbc.com/captain.html): About the owner/captain
+- [Okanagan Lake](https://outdooradventuresbc.com/lakes/okanagan-lake.html)
+- [Shuswap Lake](https://outdooradventuresbc.com/lakes/shuswap-lake.html)
+- [Arrow Lakes](https://outdooradventuresbc.com/lakes/arrow-lake.html)
+- [West Kelowna](https://outdooradventuresbc.com/areas/west-kelowna.html)
+- [Vernon](https://outdooradventuresbc.com/areas/vernon.html)
+- [Peachland](https://outdooradventuresbc.com/areas/peachland.html)
+- [Gift certificates](https://outdooradventuresbc.com/gift-certificates.html)
+- [Blog](https://outdooradventuresbc.com/blog/): Fishing guides & reports
+- [Monthly fishing report](https://outdooradventuresbc.com/blog/kelowna-fishing-report.html)
+- [Reviews](https://outdooradventuresbc.com/reviews.html)
+- [FAQ](https://outdooradventuresbc.com/faq.html)
+- [Contact / booking](https://outdooradventuresbc.com/contact.html)
 
 ## Booking info
 

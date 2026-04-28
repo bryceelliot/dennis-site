@@ -4,88 +4,88 @@
  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
  <!-- HOME -->
- <url><loc>https://outdooradventuresbc.ca/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
- <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/hero-poster.jpg</image:loc><image:title>Kelowna fishing charter on Okanagan Lake</image:title></image:image>
- <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/captain-trophy-rainbow.jpg</image:loc><image:title>Trophy caught on a Kelowna fishing charter</image:title></image:image>
- <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/kingfisher-profile.jpg</image:loc><image:title>Kingfisher 2525 Weekender Kelowna charter boat</image:title></image:image>
- <image:image><image:loc>https://outdooradventuresbc.ca/assets/img/rod-bent-kelowna-bridge.jpg</image:loc><image:title>Fish on under the Kelowna bridge</image:title></image:image>
- <video:video><video:thumbnail_loc>https://outdooradventuresbc.ca/assets/img/hero-poster.jpg</video:thumbnail_loc><video:title>Kelowna fishing charter hero reel</video:title><video:description>Aerial and on-the-water footage of Okanagan Lake fishing charters with Outdoor Adventures BC.</video:description><video:content_loc>https://outdooradventuresbc.ca/assets/img/hero.mp4</video:content_loc><video:publication_date>2026-04-22T00:00:00-07:00</video:publication_date></video:video>
+ <url><loc>https://outdooradventuresbc.com/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+ <image:image><image:loc>https://outdooradventuresbc.com/assets/img/hero-poster.jpg</image:loc><image:title>Kelowna fishing charter on Okanagan Lake</image:title></image:image>
+ <image:image><image:loc>https://outdooradventuresbc.com/assets/img/captain-trophy-rainbow.jpg</image:loc><image:title>Trophy caught on a Kelowna fishing charter</image:title></image:image>
+ <image:image><image:loc>https://outdooradventuresbc.com/assets/img/kingfisher-profile.jpg</image:loc><image:title>Kingfisher 2525 Weekender Kelowna charter boat</image:title></image:image>
+ <image:image><image:loc>https://outdooradventuresbc.com/assets/img/rod-bent-kelowna-bridge.jpg</image:loc><image:title>Fish on under the Kelowna bridge</image:title></image:image>
+ <video:video><video:thumbnail_loc>https://outdooradventuresbc.com/assets/img/hero-poster.jpg</video:thumbnail_loc><video:title>Kelowna fishing charter hero reel</video:title><video:description>Aerial and on-the-water footage of Okanagan Lake fishing charters with Outdoor Adventures BC.</video:description><video:content_loc>https://outdooradventuresbc.com/assets/img/hero.mp4</video:content_loc><video:publication_date>2026-04-22T00:00:00-07:00</video:publication_date></video:video>
  </url>
 
  <!-- PRIMARY PAGES -->
- <url><loc>https://outdooradventuresbc.ca/kelowna-fishing-charters.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
- <url><loc>https://outdooradventuresbc.ca/sightseeing-tours.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/pricing.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/gift-certificates.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/stay-fish.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/things-to-do-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/our-boat.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/captain.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/about.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/reviews.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/kelowna-fishing-charter-reviews.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/faq.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/contact.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/refer.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/waiver.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
- <url><loc>https://outdooradventuresbc.ca/press.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
- <url><loc>https://outdooradventuresbc.ca/search.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+ <url><loc>https://outdooradventuresbc.com/kelowna-fishing-charters.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+ <url><loc>https://outdooradventuresbc.com/sightseeing-tours.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/pricing.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/gift-certificates.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/stay-fish.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/things-to-do-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/our-boat.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/captain.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/about.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/reviews.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/kelowna-fishing-charter-reviews.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/faq.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/contact.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/refer.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/waiver.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url>
+ <url><loc>https://outdooradventuresbc.com/press.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+ <url><loc>https://outdooradventuresbc.com/search.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
 
  <!-- CHARTERS -->
- <url><loc>https://outdooradventuresbc.ca/charters/half-day-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/full-day-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/sunset-cruise.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/corporate-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/family-fishing-trip.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/bachelor-party-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/birthday-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/proposal-cruise.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/charters/anniversary-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/half-day-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/full-day-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/sunset-cruise.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/corporate-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/family-fishing-trip.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/bachelor-party-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/birthday-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/proposal-cruise.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/charters/anniversary-charter.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
 
  <!-- LAKES -->
- <url><loc>https://outdooradventuresbc.ca/lakes/okanagan-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/lakes/shuswap-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/lakes/arrow-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/lakes/kalamalka-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/lakes/mabel-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/lakes/okanagan-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/lakes/shuswap-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/lakes/arrow-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/lakes/kalamalka-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/lakes/mabel-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
  <!-- SPECIES -->
- <url><loc>https://outdooradventuresbc.ca/species/</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/species/kokanee-salmon.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/species/chinook-burbot.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/species/</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/species/kokanee-salmon.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/species/chinook-burbot.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
 
  <!-- AREAS -->
- <url><loc>https://outdooradventuresbc.ca/areas/west-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/areas/vernon.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/areas/peachland.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/areas/lake-country.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/areas/naramata.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/areas/summerland.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/west-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/vernon.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/peachland.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/lake-country.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/naramata.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/areas/summerland.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
  <!-- BLOG -->
- <url><loc>https://outdooradventuresbc.ca/blog/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/kelowna-fishing-report.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/best-time-fish-okanagan-lake.html</loc><lastmod>2026-03-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/kokanee-trolling-setup-guide.html</loc><lastmod>2026-04-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/kelowna-fishing-licence-guide.html</loc><lastmod>2026-03-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/what-to-bring-kelowna-charter.html</loc><lastmod>2026-03-10</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/blog/first-fishing-trip-kids.html</loc><lastmod>2026-04-08</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/kelowna-fishing-report.html</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/best-time-fish-okanagan-lake.html</loc><lastmod>2026-03-15</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/kokanee-trolling-setup-guide.html</loc><lastmod>2026-04-01</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/kelowna-fishing-licence-guide.html</loc><lastmod>2026-03-20</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/what-to-bring-kelowna-charter.html</loc><lastmod>2026-03-10</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/blog/first-fishing-trip-kids.html</loc><lastmod>2026-04-08</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
 
  <!-- GUIDES -->
- <url><loc>https://outdooradventuresbc.ca/guides/</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/kelowna-boat-ramps.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/where-to-fish-okanagan-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/fishing-near-downtown-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/what-to-wear-kelowna-fishing.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/best-kokanee-lures.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/okanagan-lake-depth-map.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
- <url><loc>https://outdooradventuresbc.ca/guides/winter-fishing-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/kelowna-boat-ramps.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/where-to-fish-okanagan-lake.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/fishing-near-downtown-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/what-to-wear-kelowna-fishing.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/best-kokanee-lures.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/okanagan-lake-depth-map.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
+ <url><loc>https://outdooradventuresbc.com/guides/winter-fishing-kelowna.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.75</priority></url>
 
  <!-- CATCHES -->
- <url><loc>https://outdooradventuresbc.ca/catches/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://outdooradventuresbc.com/catches/</loc><lastmod>2026-04-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
  <!-- LEGAL -->
- <url><loc>https://outdooradventuresbc.ca/legal/privacy.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
- <url><loc>https://outdooradventuresbc.ca/legal/terms.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
- <url><loc>https://outdooradventuresbc.ca/legal/cancellation-policy.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+ <url><loc>https://outdooradventuresbc.com/legal/privacy.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+ <url><loc>https://outdooradventuresbc.com/legal/terms.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+ <url><loc>https://outdooradventuresbc.com/legal/cancellation-policy.html</loc><lastmod>2026-04-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
 </urlset>

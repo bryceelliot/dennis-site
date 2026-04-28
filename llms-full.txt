@@ -15,7 +15,7 @@ This document is a plain-text, comprehensive snapshot of the Outdoor Adventures 
 - Email: info@outdooradventuresbc.ca
 - Hours: 6:00 AM – 9:00 PM, 7 days a week, year-round
 - Google rating: 5.0 stars
-- Website: https://outdooradventuresbc.ca
+- Website: https://outdooradventuresbc.com
 - Google Business: https://share.google/oQfowrUI3wFXEOYxG
 - Instagram: @outdooradventure.bc
 - LinkedIn (Dennis): https://www.linkedin.com/in/dennis-barnes-8b9061115/
@@ -127,41 +127,41 @@ Dennis owns and hosts a Kelowna Airbnb designed for visiting anglers and familie
 
 ## Pages on the site (current)
 
-- Home: https://outdooradventuresbc.ca/
-- Fishing charters: https://outdooradventuresbc.ca/kelowna-fishing-charters.html
-- Pricing: https://outdooradventuresbc.ca/pricing.html
-- Stay + Fish: https://outdooradventuresbc.ca/stay-fish.html
-- Gift certificates: https://outdooradventuresbc.ca/gift-certificates.html
-- Half-day charter: https://outdooradventuresbc.ca/charters/half-day-charter.html
-- Full-day charter: https://outdooradventuresbc.ca/charters/full-day-charter.html
-- Sunset cruise: https://outdooradventuresbc.ca/charters/sunset-cruise.html
-- Family fishing trip: https://outdooradventuresbc.ca/charters/family-fishing-trip.html
-- Corporate charter: https://outdooradventuresbc.ca/charters/corporate-charter.html
-- Bachelor / bachelorette: https://outdooradventuresbc.ca/charters/bachelor-party-charter.html
-- Birthday: https://outdooradventuresbc.ca/charters/birthday-charter.html
-- Proposal cruise: https://outdooradventuresbc.ca/charters/proposal-cruise.html
-- Anniversary cruise: https://outdooradventuresbc.ca/charters/anniversary-charter.html
-- Species guide hub: https://outdooradventuresbc.ca/species/
+- Home: https://outdooradventuresbc.com/
+- Fishing charters: https://outdooradventuresbc.com/kelowna-fishing-charters.html
+- Pricing: https://outdooradventuresbc.com/pricing.html
+- Stay + Fish: https://outdooradventuresbc.com/stay-fish.html
+- Gift certificates: https://outdooradventuresbc.com/gift-certificates.html
+- Half-day charter: https://outdooradventuresbc.com/charters/half-day-charter.html
+- Full-day charter: https://outdooradventuresbc.com/charters/full-day-charter.html
+- Sunset cruise: https://outdooradventuresbc.com/charters/sunset-cruise.html
+- Family fishing trip: https://outdooradventuresbc.com/charters/family-fishing-trip.html
+- Corporate charter: https://outdooradventuresbc.com/charters/corporate-charter.html
+- Bachelor / bachelorette: https://outdooradventuresbc.com/charters/bachelor-party-charter.html
+- Birthday: https://outdooradventuresbc.com/charters/birthday-charter.html
+- Proposal cruise: https://outdooradventuresbc.com/charters/proposal-cruise.html
+- Anniversary cruise: https://outdooradventuresbc.com/charters/anniversary-charter.html
+- Species guide hub: https://outdooradventuresbc.com/species/
 - Lakes: /lakes/okanagan-lake, /lakes/shuswap-lake, /lakes/arrow-lake, /lakes/kalamalka-lake, /lakes/mabel-lake
 - Areas: /areas/west-kelowna, /areas/vernon, /areas/peachland, /areas/lake-country, /areas/naramata, /areas/summerland
-- Species × lake matrix: https://outdooradventuresbc.ca/fishing/ (30 programmatic pages)
-- Blog: https://outdooradventuresbc.ca/blog/
-- Catches: https://outdooradventuresbc.ca/catches/
-- Guides: https://outdooradventuresbc.ca/guides/
-- Lake coverage map: https://outdooradventuresbc.ca/guides/kelowna-lake-map.html
-- Glossary: https://outdooradventuresbc.ca/guides/glossary.html
-- Things to do in Kelowna: https://outdooradventuresbc.ca/things-to-do-kelowna.html
-- Reviews: https://outdooradventuresbc.ca/reviews.html
-- FAQ: https://outdooradventuresbc.ca/faq.html
-- Captain (Dennis bio): https://outdooradventuresbc.ca/captain.html
-- Contact / booking: https://outdooradventuresbc.ca/contact.html
-- Refer a friend: https://outdooradventuresbc.ca/refer.html
-- Digital waiver: https://outdooradventuresbc.ca/waiver.html
-- Press / media: https://outdooradventuresbc.ca/press.html
+- Species × lake matrix: https://outdooradventuresbc.com/fishing/ (30 programmatic pages)
+- Blog: https://outdooradventuresbc.com/blog/
+- Catches: https://outdooradventuresbc.com/catches/
+- Guides: https://outdooradventuresbc.com/guides/
+- Lake coverage map: https://outdooradventuresbc.com/guides/kelowna-lake-map.html
+- Glossary: https://outdooradventuresbc.com/guides/glossary.html
+- Things to do in Kelowna: https://outdooradventuresbc.com/things-to-do-kelowna.html
+- Reviews: https://outdooradventuresbc.com/reviews.html
+- FAQ: https://outdooradventuresbc.com/faq.html
+- Captain (Dennis bio): https://outdooradventuresbc.com/captain.html
+- Contact / booking: https://outdooradventuresbc.com/contact.html
+- Refer a friend: https://outdooradventuresbc.com/refer.html
+- Digital waiver: https://outdooradventuresbc.com/waiver.html
+- Press / media: https://outdooradventuresbc.com/press.html
 
 ## How to book
 
 1. Call or text +1-250-902-8323.
 2. Email info@outdooradventuresbc.ca.
-3. Submit the form at https://outdooradventuresbc.ca/contact.html.
-4. When the FareHarbor integration is active, book directly at https://outdooradventuresbc.ca/#book.
+3. Submit the form at https://outdooradventuresbc.com/contact.html.
+4. When the FareHarbor integration is active, book directly at https://outdooradventuresbc.com/#book.

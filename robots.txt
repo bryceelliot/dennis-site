@@ -25,6 +25,6 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://outdooradventuresbc.ca/sitemap-index.xml
-Sitemap: https://outdooradventuresbc.ca/sitemap.xml
-Host: outdooradventuresbc.ca
+Sitemap: https://outdooradventuresbc.com/sitemap-index.xml
+Sitemap: https://outdooradventuresbc.com/sitemap.xml
+Host: outdooradventuresbc.com
