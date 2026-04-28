@@ -27,7 +27,7 @@
 
 ## Service area
 
-Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow Lake, Lower Arrow Lake, Kinbasket Lake. Serving Kelowna, West Kelowna, Vernon, Peachland, Penticton.
+All seven major Interior BC lakes: Okanagan Lake (primary, Kelowna home water), Skaha Lake (Penticton), Kalamalka Lake (Vernon), Mabel Lake (east of Enderby), Shuswap Lake, Upper and Lower Arrow Lakes, Kinbasket Lake (north of Revelstoke). Serving Kelowna, West Kelowna, Vernon, Peachland, Penticton, Lake Country.
 
 ## Target species by lake
 
@@ -49,8 +49,12 @@ Okanagan Lake (primary), Shuswap Lake, Kalamalka Lake, Mabel Lake, Upper Arrow L
 - [Our boat](https://outdooradventuresbc.com/our-boat.html): Kingfisher 2525 specifications
 - [The captain](https://outdooradventuresbc.com/captain.html): About the owner/captain
 - [Okanagan Lake](https://outdooradventuresbc.com/lakes/okanagan-lake.html)
+- [Skaha Lake](https://outdooradventuresbc.com/lakes/skaha-lake.html)
+- [Kalamalka Lake](https://outdooradventuresbc.com/lakes/kalamalka-lake.html)
+- [Mabel Lake](https://outdooradventuresbc.com/lakes/mabel-lake.html)
 - [Shuswap Lake](https://outdooradventuresbc.com/lakes/shuswap-lake.html)
 - [Arrow Lakes](https://outdooradventuresbc.com/lakes/arrow-lake.html)
+- [Kinbasket Lake](https://outdooradventuresbc.com/lakes/kinbasket-lake.html)
 - [West Kelowna](https://outdooradventuresbc.com/areas/west-kelowna.html)
 - [Vernon](https://outdooradventuresbc.com/areas/vernon.html)
 - [Peachland](https://outdooradventuresbc.com/areas/peachland.html)
